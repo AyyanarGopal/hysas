@@ -1,0 +1,24 @@
+@media(max-width: 992px){
+    header nav{
+        display: none;
+    }
+    header .menubar{
+        display: block;
+    }
+}
+@media(max-width: 672px){  
+    .core-boxes {
+        margin: 0px;  
+    }
+    .core-boxes>div{
+        flex: 100%;
+    }
+}
+
+@media(max-width: 600px){  
+    footer>div{
+        flex-basis: 100%;
+    }
+}
+
+
